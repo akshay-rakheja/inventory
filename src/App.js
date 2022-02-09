@@ -1,11 +1,13 @@
 import './App.css';
+import SearchBar from './searchBar.js';
 
 function App() {
   return (
     <div className="App">
-      <p>Bare bone app</p>
+      <SearchBar />
     </div>
   );
 }
+
 
 export default App;
